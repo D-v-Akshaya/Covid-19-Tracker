@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginLeft="0dp"
+    android:layout_marginTop="0dp"
+    android:layout_marginRight="0dp"
+    android:layout_marginBottom="0dp"
+    android:background="#ECE9E4">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="0dp"
+        app:cardBackgroundColor="@color/voilet1"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        >
+
+        <TextView
+            android:id="@+id/cityname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/alatsi"
+            android:text="Cityname"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/alatsi"
+            android:text="Cases"
+            android:textSize="18dp"
+            android:textColor="@color/black" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:background="@color/blue10"
+                android:text="Active"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginLeft="5dp"
+                />
+
+
+            <TextView
+                android:id="@+id/active"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:textAlignment="center"
+                android:background="@color/blue10"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Confirm"
+                android:background="@color/red"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/confirm"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:text="1"
+                android:background="@color/red"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:background="@color/red"
+                    android:id="@+id/dconfirm"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:layout_marginRight="0dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Deceased"
+                android:background="@color/pink"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginLeft="5dp"/>
+
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:background="@color/pink"
+                android:text="1"
+
+                android:id="@+id/deceased"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="1765"
+                    android:id="@+id/ddeceased"
+                    android:textColor="@color/black"
+                    android:background="@color/pink"
+                    android:textSize="18sp"
+                    android:layout_marginRight="0dp"/>
+
+
+                <!--                <ImageView-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:src="@drawable/ic_baseline_arrow_upward_24" />-->
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Recovered"
+                android:background="@color/green"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginLeft="5dp"/>
+
+
+            <TextView
+                android:id="@+id/recovered"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:background="@color/green"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/drecovered"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="277"
+                    android:background="@color/green"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:layout_marginRight="0dp"/>
+                <!--                <ImageView-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:src="@drawable/ic_baseline_arrow_upward_24" />-->
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
